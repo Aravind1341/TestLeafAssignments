@@ -1,6 +1,6 @@
 package week1.day2.assignment;
 
-public class MyCalculator extends Calculator{
+public class MyCalculator {
 	
 	public static void main(String[] args) {
 		
