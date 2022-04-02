@@ -11,9 +11,8 @@ public class FindMissingElement {
 		Arrays.sort(arr);
 		
 		for (int i = arr[0]; i < arr.length; i++) {
-			int val=arr[i+1]-1;
-			if(val!=arr[i]){
-				System.out.println("Missing Element is "+val);
+			if(i!=arr[i-1]){
+				System.out.println("Missing Element is "+i);
 				break;
 			}
 
